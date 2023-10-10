@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Luxurious+Roman&family=Noto+Serif:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;1,500;1,600;1,800&family=Romanesco&display=swap');
+*{
+    width: 100%;
+}
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 60px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+    width: 50%;
+    height: 800px;
+    border: none;
+    border-radius: 20px;
+}
+h1{
+    color: crimson;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+h2{
+    color:dodgerblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
